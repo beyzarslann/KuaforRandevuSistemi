@@ -14,12 +14,32 @@ import java.util.stream.Collectors;
 public class MusteriImpl implements MusteriService {
     private MusteriRepo musteriRepo;
 
+    public MusteriImpl(MusteriRepo musteriRepo) {
+        this.musteriRepo = musteriRepo;
+    }
+
     @Override
     public List<MusteriDto> getButunMusteri() {
         List<Musteri> musteriList = musteriRepo.findAll();
         return musteriList.stream()
                 .map(MusteriMapper::musteriToDto)
                 .collect(Collectors.toList());
+    }
+
+    @Override
+    public MusteriDto yeniMusteri(MusteriDto musteriDto) {
+        Musteri musteri = MusteriMapper.dtoToMusteri(musteriDto);
+        Musteri yeniKayit = musteriRepo.save(musteri);
+        MusteriDto yeniMusteriDto = MusteriMapper.musteriToDto(yeniKayit);
+        return yeniMusteriDto;
+    }
+
+    public MusteriRepo getMusteriRepo() {
+        return musteriRepo;
+    }
+
+    public void setMusteriRepo(MusteriRepo musteriRepo) {
+        this.musteriRepo = musteriRepo;
     }
 }
 

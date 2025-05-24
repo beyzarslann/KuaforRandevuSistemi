@@ -7,4 +7,6 @@ import java.util.List;
 public interface MusteriService {
 
     List<MusteriDto> getButunMusteri();
+
+    MusteriDto yeniMusteri(MusteriDto musteriDto);
 }
