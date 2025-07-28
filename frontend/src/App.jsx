@@ -6,6 +6,7 @@ import MusteriEkle from "./bilesenler/MusteriEkle";
 import Anasayfa from "./sayfalar/Anasayfa";
 import Admin from "./sayfalar/Admin";
 import Hakkimizda from "./sayfalar/Hakkimizda";
+import UzmanEkip from "./sayfalar/UzmanEkip";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/musteri/tumMusteriler" element={<Listele />}></Route>
           <Route path="/musteri/yeniMusteri" element={<MusteriEkle />}></Route>
           <Route path="/Hakkimizda" element={<Hakkimizda />}></Route>
+          <Route path="/UzmanEkip" element={<UzmanEkip />}></Route>
         </Routes>
       </BrowserRouter>
     </>
