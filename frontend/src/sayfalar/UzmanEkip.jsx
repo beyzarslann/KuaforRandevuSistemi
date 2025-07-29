@@ -2,18 +2,22 @@ import React from "react";
 
 const UzmanEkip = () => {
   return (
-    <div>
+    <div
+      className="uzmanekip"
+      style={{
+        backgroundColor: "#113F67",
+      }}
+    >
       {/* Başlık ayrı div olarak dışarıda ortalanmış */}
       <div
         className="baslik"
         style={{
           width: "100%",
           textAlign: "center",
-          color: "black",
+          color: "#FDF5AA",
           fontSize: 36,
           fontFamily: "Bitcount",
           fontWeight: "400",
-          marginTop: 20,
         }}
       >
         UZMAN EKİBİMİZ
@@ -37,7 +41,7 @@ const UzmanEkip = () => {
           style={{
             width: 333,
             height: 675,
-            background: "#E8C9C9",
+            backgroundColor: "#34699A",
             borderRadius: 40,
             display: "flex",
             flexDirection: "column",
@@ -57,7 +61,7 @@ const UzmanEkip = () => {
             style={{
               width: 246,
               textAlign: "center",
-              color: "black",
+              color: "#FDF5AA",
               fontSize: 20,
               marginTop: 30,
               fontFamily: "Anonymous Pro",
@@ -71,7 +75,7 @@ const UzmanEkip = () => {
             style={{
               width: 246,
               textAlign: "center",
-              color: "black",
+              color: "#FDF5AA",
               fontSize: 18,
               fontFamily: "Inter",
               fontWeight: "400",
@@ -88,7 +92,7 @@ const UzmanEkip = () => {
           style={{
             width: 333,
             height: 675,
-            background: "#E8C9C9",
+            background: "#34699A",
             borderRadius: 40,
             display: "flex",
             flexDirection: "column",
@@ -108,7 +112,7 @@ const UzmanEkip = () => {
             style={{
               width: 246,
               textAlign: "center",
-              color: "black",
+              color: "#FDF5AA",
               fontSize: 20,
               marginTop: 30,
               fontFamily: "Anonymous Pro",
@@ -122,7 +126,7 @@ const UzmanEkip = () => {
             style={{
               width: 246,
               textAlign: "center",
-              color: "black",
+              color: "#FDF5AA",
               fontSize: 18,
               fontFamily: "Inter",
               fontWeight: "400",
@@ -137,7 +141,7 @@ const UzmanEkip = () => {
           style={{
             width: 333,
             height: 675,
-            background: "#E8C9C9",
+            background: "#34699A",
             borderRadius: 40,
             display: "flex",
             flexDirection: "column",
@@ -157,7 +161,7 @@ const UzmanEkip = () => {
             style={{
               width: 246,
               textAlign: "center",
-              color: "black",
+              color: "#FDF5AA",
               fontSize: 20,
               marginTop: 30,
               fontFamily: "Anonymous Pro",
@@ -171,7 +175,7 @@ const UzmanEkip = () => {
             style={{
               width: 246,
               textAlign: "center",
-              color: "black",
+              color: "#FDF5AA",
               fontSize: 18,
               fontFamily: "Inter",
               fontWeight: "400",
@@ -185,7 +189,7 @@ const UzmanEkip = () => {
         style={{
           width: 833,
           height: 41,
-          color: "black",
+          color: "#FDF5AA",
           fontSize: 28,
           marginLeft: 350,
           marginTop: 50,

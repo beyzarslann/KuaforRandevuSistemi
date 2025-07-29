@@ -2,13 +2,20 @@ import React from "react";
 
 const Hizmetler = () => {
   return (
-    <div>
+    <div
+      style={{
+        backgroundColor: "#113F67",
+        minHeight: "100vh",
+        margin: 0,
+        padding: 0,
+      }}
+    >
       <div
         className="baslik"
         style={{
           width: "100%",
           textAlign: "center",
-          color: "black",
+          color: "#FDF5AA",
           fontSize: 36,
           fontFamily: "Bitcount",
           fontWeight: "400",
@@ -23,7 +30,7 @@ const Hizmetler = () => {
           width: 1172,
           height: 66,
           textAlign: "center",
-          color: "black",
+          color: "#FDF5AA",
           fontSize: 32,
           fontFamily: "Caveat",
           marginLeft: 100,
@@ -50,7 +57,7 @@ const Hizmetler = () => {
           style={{
             width: 250,
             height: 400,
-            background: "#E1DEF3", // İkinci görseldeki lila renk tonu
+            background: "#34699A", // İkinci görseldeki lila renk tonu
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
@@ -66,7 +73,7 @@ const Hizmetler = () => {
           <div
             style={{
               textAlign: "center",
-              color: "black",
+              color: "#FDF5AA",
               fontSize: 28,
               fontFamily: "Caveat",
               fontWeight: "400",
@@ -78,7 +85,7 @@ const Hizmetler = () => {
           <div
             style={{
               textAlign: "center",
-              color: "black",
+              color: "#FDF5AA",
               fontSize: 16,
               fontFamily: "Anonymous Pro",
               fontWeight: "400",
@@ -97,7 +104,7 @@ const Hizmetler = () => {
           style={{
             width: 250,
             height: 400,
-            background: "#E1DEF3", // İkinci görseldeki lila renk tonu
+            background: "#34699A", // İkinci görseldeki lila renk tonu
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
@@ -113,7 +120,7 @@ const Hizmetler = () => {
           <div
             style={{
               textAlign: "center",
-              color: "black",
+              color: "#FDF5AA",
               fontSize: 28,
               fontFamily: "Caveat",
               fontWeight: "400",
@@ -125,7 +132,7 @@ const Hizmetler = () => {
           <div
             style={{
               textAlign: "center",
-              color: "black",
+              color: "#FDF5AA",
               fontSize: 16,
               fontFamily: "Anonymous Pro",
               fontWeight: "400",
@@ -139,7 +146,7 @@ const Hizmetler = () => {
           style={{
             width: 250,
             height: 400,
-            background: "#E1DEF3", // İkinci görseldeki lila renk tonu
+            background: "#34699A", // İkinci görseldeki lila renk tonu
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
@@ -155,7 +162,7 @@ const Hizmetler = () => {
           <div
             style={{
               textAlign: "center",
-              color: "black",
+              color: "#FDF5AA",
               fontSize: 28,
               fontFamily: "Caveat",
               fontWeight: "400",
@@ -167,7 +174,7 @@ const Hizmetler = () => {
           <div
             style={{
               textAlign: "center",
-              color: "black",
+              color: "#FDF5AA",
               fontSize: 16,
               fontFamily: "Anonymous Pro",
               fontWeight: "400",
@@ -183,7 +190,7 @@ const Hizmetler = () => {
             width: 250,
             height: 400,
             marginBottom: 30,
-            background: "#E1DEF3", // İkinci görseldeki lila renk tonu
+            background: "#34699A", // İkinci görseldeki lila renk tonu
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
@@ -199,7 +206,7 @@ const Hizmetler = () => {
           <div
             style={{
               textAlign: "center",
-              color: "black",
+              color: "#FDF5AA",
               fontSize: 28,
               fontFamily: "Caveat",
               fontWeight: "400",
@@ -211,7 +218,7 @@ const Hizmetler = () => {
           <div
             style={{
               textAlign: "center",
-              color: "black",
+              color: "#FDF5AA",
               fontSize: 16,
               fontFamily: "Anonymous Pro",
               fontWeight: "400",

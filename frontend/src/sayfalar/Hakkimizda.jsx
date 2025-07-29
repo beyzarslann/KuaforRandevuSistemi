@@ -2,7 +2,15 @@ import React from "react";
 
 const Hakkimizda = () => {
   return (
-    <div className="hakkimizda">
+    <div
+      className="hakkimizda"
+      style={{
+        backgroundColor: "#113F67",
+        minHeight: "100vh",
+        margin: 0,
+        padding: 0,
+      }}
+    >
       <div
         className="baslik"
         style={{
