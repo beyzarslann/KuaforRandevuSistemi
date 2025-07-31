@@ -11,22 +11,7 @@ const Hakkimizda = () => {
         padding: 0,
       }}
     >
-      <div
-        className="baslik"
-        style={{
-          width: 600,
-          height: 42,
-          margin: "0 auto", // merkezi ortalama
-          textAlign: "center",
-          color: "black",
-          fontSize: 36,
-          fontFamily: "Bitcount",
-          fontWeight: "400",
-          wordWrap: "break-word",
-        }}
-      >
-        HAKKIMIZDA
-      </div>
+      <div className="baslik">HAKKIMIZDA</div>
       <img
         style={{
           width: 388,
@@ -77,7 +62,7 @@ const Hakkimizda = () => {
             style={{
               fontFamily: "Bitcount",
               fontSize: "20px",
-              color: "white",
+              color: "#FDF5AA",
               margin: 0,
             }}
           >
@@ -91,6 +76,7 @@ const Hakkimizda = () => {
             maxWidth: "700px",
             marginTop: 40,
             fontSize: "14px",
+            color: "#FDF5AA",
             fontFamily: "Lekton",
             lineHeight: "1.6",
           }}
@@ -117,7 +103,7 @@ const Hakkimizda = () => {
             width: 354,
             height: 92,
             borderRadius: 30,
-            color: "white",
+            color: "#FDF5AA",
             fontSize: 20,
             fontFamily: "Bitcount",
             display: "flex", // ✅ eklendi
@@ -128,7 +114,9 @@ const Hakkimizda = () => {
           MİSYONUMUZ
         </div>
 
-        <p style={{ fontFamily: "Lekton", maxWidth: "800px" }}>
+        <p
+          style={{ fontFamily: "Lekton", maxWidth: "800px", color: "#FDF5AA" }}
+        >
           Her müşterimize kişisel bakımda konfor, hijyen ve profesyonellik
           sunmak için buradayız. İhtiyacınıza uygun çözümlerle, güzelliğinizi
           destekleyen bir deneyim yaratmayı amaçlıyoruz.
@@ -161,7 +149,7 @@ const Hakkimizda = () => {
             style={{
               fontFamily: "Bitcount",
               fontSize: "20px",
-              color: "white",
+              color: "#FDF5AA",
               margin: 0,
             }}
           >
@@ -176,6 +164,7 @@ const Hakkimizda = () => {
             marginTop: 10,
             fontSize: "14px",
             fontFamily: "Lekton",
+            color: "#FDF5AA",
             lineHeight: "1.6",
           }}
         >
@@ -202,7 +191,7 @@ const Hakkimizda = () => {
             width: 354,
             height: 92,
             borderRadius: 30,
-            color: "white",
+            color: "#FDF5AA",
             fontSize: 20,
             fontFamily: "Bitcount",
             display: "flex", // ✅ eklendi
@@ -213,8 +202,10 @@ const Hakkimizda = () => {
           MÜŞTERİ MEMNUNİYETİ
         </div>
 
-        <p style={{ fontFamily: "Lekton", maxWidth: "800px" }}>
-          Sizin mutluluğunuz, bizim en büyük motivasyon kaynağımızdır. Görüş ve
+        <p
+          style={{ fontFamily: "Lekton", maxWidth: "800px", color: "#FDF5AA" }}
+        >
+          Sizin mutluluğunuz, bizim en büyük motivasyon kaynağımızdır.Görüş ve
           geri bildirimlerinizi önemsiyor, her gün daha iyi olmak için
           çalışıyoruz.
         </p>
