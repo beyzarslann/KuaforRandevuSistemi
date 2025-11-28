@@ -10,14 +10,24 @@ const Anasayfa = () => {
       <Link to="/musteri/yeniMusteri">
         <button
           type="button"
-          className="btn btn-secondary btn-lg"
-          style={{ fontSize: "1rem", padding: "0.5rem 0.5rem" }}
+          class="btn btn-secondary"
+          style={{
+            fontSize: "1rem",
+            padding: "0.5rem 0.5rem",
+            marginTop: "25px",
+            textDecoration: "none",
+            color: "white",
+          }}
         >
           Randevu Al
         </button>
       </Link>
 
       <img src={icon} alt="makas görseli" className="icon" />
+      <p style={{ color: "#5A4A42", maxWidth: "700px", marginTop: "10px" }}>
+        Kuaför randevunuzu saniyeler içinde planlayın. Modern, hızlı ve pratik
+        bir güzellik deneyimi.
+      </p>
     </div>
   );
 };

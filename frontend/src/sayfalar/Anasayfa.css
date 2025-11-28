@@ -1,7 +1,7 @@
 .anasayfa-container {
   text-align: center;
-  background-color: #eae8e8;
-  height: calc(100vh - 40px); /* Navbar yüksekliği kadar düşülmüş */
+  background-color: #f7ece7;
+  height: calc(100vh - 40px);
   display: flex;
   flex-direction: column;
   justify-content: center;
