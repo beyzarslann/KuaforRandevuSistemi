@@ -3,203 +3,133 @@ import React from "react";
 const UzmanEkip = () => {
   return (
     <div
-      className="uzmanekip"
       style={{
-        backgroundColor: "#113F67",
+        backgroundColor: "#FAF7F2",
+        minHeight: "100vh",
+        padding: "50px 0",
       }}
     >
-      {/* Başlık ayrı div olarak dışarıda ortalanmış */}
-      <div
-        className="baslik"
+      <h2
         style={{
-          width: "100%",
           textAlign: "center",
-          color: "#FDF5AA",
-          fontSize: 36,
-          fontFamily: "Bitcount",
-          fontWeight: "400",
+          color: "#6F4E37",
+          fontWeight: "700",
+          marginBottom: "10px",
         }}
       >
-        UZMAN EKİBİMİZ
-      </div>
-
-      {/* Kartların kapsayıcısı */}
-      <div
-        className="uzmanekip"
-        style={{
-          display: "flex",
-          flexDirection: "row",
-          justifyContent: "center",
-          alignItems: "flex-start",
-          flexWrap: "wrap",
-          gap: 40,
-          marginTop: 40,
-        }}
-      >
-        {/* KART 1 */}
-        <div
-          style={{
-            width: 333,
-            height: 675,
-            backgroundColor: "#34699A",
-            borderRadius: 40,
-            display: "flex",
-            flexDirection: "column",
-            alignItems: "center",
-            justifyContent: "center",
-            padding: 20,
-            boxSizing: "border-box",
-            gap: 10,
-          }}
-        >
-          <img
-            style={{ width: 198, height: 210 }}
-            src="/team1.png"
-            alt="profil"
-          />
-          <div
-            style={{
-              width: 246,
-              textAlign: "center",
-              color: "#FDF5AA",
-              fontSize: 20,
-              marginTop: 30,
-              fontFamily: "Anonymous Pro",
-              fontWeight: "700",
-            }}
-          >
-            Elif Yılmaz <br />
-            Saç Tasarım Uzmanı
-          </div>
-          <div
-            style={{
-              width: 246,
-              textAlign: "center",
-              color: "#FDF5AA",
-              fontSize: 18,
-              fontFamily: "Inter",
-              fontWeight: "400",
-            }}
-          >
-            Elif, 8 yıllık tecrübesiyle <br />
-            modern saç kesimlerinde <br />
-            uzmanlaşmıştır.
-          </div>
-        </div>
-
-        {/* KART 2 */}
-        <div
-          style={{
-            width: 333,
-            height: 675,
-            background: "#34699A",
-            borderRadius: 40,
-            display: "flex",
-            flexDirection: "column",
-            alignItems: "center",
-            justifyContent: "center",
-            padding: 20,
-            boxSizing: "border-box",
-            gap: 10,
-          }}
-        >
-          <img
-            style={{ width: 198, height: 210 }}
-            src="/team3.png"
-            alt="profil"
-          />
-          <div
-            style={{
-              width: 246,
-              textAlign: "center",
-              color: "#FDF5AA",
-              fontSize: 20,
-              marginTop: 30,
-              fontFamily: "Anonymous Pro",
-              fontWeight: "700",
-            }}
-          >
-            Buse Demir <br />
-            Cilt Bakım Uzmanı
-          </div>
-          <div
-            style={{
-              width: 246,
-              textAlign: "center",
-              color: "#FDF5AA",
-              fontSize: 18,
-              fontFamily: "Inter",
-              fontWeight: "400",
-            }}
-          >
-            Buse, cilt sağlığı ve estetik dokunuşlarıyla danışanlarının
-            vazgeçilmezi.
-          </div>
-        </div>
-        {/* KART 1 */}
-        <div
-          style={{
-            width: 333,
-            height: 675,
-            background: "#34699A",
-            borderRadius: 40,
-            display: "flex",
-            flexDirection: "column",
-            alignItems: "center",
-            justifyContent: "center",
-            padding: 20,
-            boxSizing: "border-box",
-            gap: 10,
-          }}
-        >
-          <img
-            style={{ width: 198, height: 210 }}
-            src="/team2.png"
-            alt="profil"
-          />
-          <div
-            style={{
-              width: 246,
-              textAlign: "center",
-              color: "#FDF5AA",
-              fontSize: 20,
-              marginTop: 30,
-              fontFamily: "Anonymous Pro",
-              fontWeight: "700",
-            }}
-          >
-            Mert Kaya <br />
-            Renk Uzmanı
-          </div>
-          <div
-            style={{
-              width: 246,
-              textAlign: "center",
-              color: "#FDF5AA",
-              fontSize: 18,
-              fontFamily: "Inter",
-              fontWeight: "400",
-            }}
-          >
-            Mert, renk kombinasyonları ve balayage uygulamalarıyla fark yaratır.
-          </div>
-        </div>
-      </div>
+        Uzman Ekibimiz
+      </h2>
       <div
         style={{
-          width: 833,
-          height: 41,
-          color: "#FDF5AA",
-          fontSize: 28,
-          marginLeft: 350,
-          marginTop: 50,
-          marginBottom: 50,
-          fontFamily: "Caveat",
-          fontWeight: "400",
-          wordWrap: "break-word",
+          width: "60px",
+          height: "3px",
+          backgroundColor: "#6F4E37",
+          margin: "0 auto 40px",
         }}
-      >
-        Uzman ekibimizle hayal ettiğiniz görünüme ulaşmanız için buradayız !
+      ></div>
+
+      <div className="container">
+        <div className="row g-4 justify-content-center">
+          {/* KART 1 */}
+          <div className="col-md-4 overflow-hidden">
+            <div
+              style={{
+                backgroundColor: "white",
+                padding: "25px",
+                borderRadius: "20px",
+                boxShadow: "0 4px 12px rgba(0,0,0,0.08)",
+                textAlign: "center",
+              }}
+            >
+              <img
+                src="/team1.png"
+                alt="Elif"
+                style={{
+                  width: "140px",
+                  height: "140px",
+                  borderRadius: "50%",
+                  objectFit: "cover",
+                  border: "4px solid #6F4E37",
+                  marginBottom: "15px",
+                }}
+              />
+              <h5 style={{ color: "#6F4E37", fontWeight: "700" }}>
+                Elif Yılmaz
+              </h5>
+              <span style={{ color: "#6A6A6A" }}>Saç Tasarım Uzmanı</span>
+              <p style={{ marginTop: "10px", color: "#4A3B2F" }}>
+                Elif, 8 yıllık tecrübesiyle modern saç kesimlerinde
+                uzmanlaşmıştır.
+              </p>
+            </div>
+          </div>
+
+          {/* KART 2 */}
+          <div className="col-md-4 overflow-hidden">
+            <div
+              style={{
+                backgroundColor: "white",
+                padding: "25px",
+                borderRadius: "20px",
+                boxShadow: "0 4px 12px rgba(0,0,0,0.08)",
+                textAlign: "center",
+              }}
+            >
+              <img
+                src="/team3.png"
+                alt="Ayşe"
+                style={{
+                  width: "140px",
+                  height: "140px",
+                  borderRadius: "50%",
+                  objectFit: "cover",
+                  border: "4px solid #6F4E37",
+                  marginBottom: "15px",
+                }}
+              />
+              <h5 style={{ color: "#6F4E37", fontWeight: "700" }}>
+                Ayşe Demir
+              </h5>
+              <span style={{ color: "#6A6A6A" }}>Cilt Bakım Uzmanı</span>
+              <p style={{ marginTop: "10px", color: "#4A3B2F" }}>
+                Ayşe, cilt sağlığı ve estetik dokunuşlarıyla danışanlarının
+                vazgeçilmezi.
+              </p>
+            </div>
+          </div>
+
+          {/* KART 3 */}
+          <div className="col-md-4 overflow-hidden">
+            <div
+              style={{
+                backgroundColor: "white",
+                padding: "25px",
+                borderRadius: "20px",
+                boxShadow: "0 4px 12px rgba(0,0,0,0.08)",
+                textAlign: "center",
+              }}
+            >
+              <img
+                src="/team2.png"
+                alt="Mert"
+                style={{
+                  width: "140px",
+                  height: "140px",
+                  borderRadius: "50%",
+                  objectFit: "cover",
+                  border: "4px solid #6F4E37",
+                  marginBottom: "15px",
+                }}
+              />
+              <h5 style={{ color: "#6F4E37", fontWeight: "700" }}>Mert Kaya</h5>
+              <span style={{ color: "#6A6A6A" }}>Renk Uzmanı</span>
+              <p style={{ marginTop: "10px", color: "#4A3B2F" }}>
+                Mert, renk kombinasyonları ve balayage uygulamalarıyla fark
+                yaratır.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
