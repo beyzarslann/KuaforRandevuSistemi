@@ -1,6 +1,29 @@
 import React from "react";
 
 const Hizmetler = () => {
+  const services = [
+    {
+      img: "/kesim.jpg",
+      title: "Saç Kesimi & Şekillendirme",
+      desc: "Klasikten moderne, yüz hatlarınıza uygun stil önerileri.",
+    },
+    {
+      img: "/boya.jpg",
+      title: "Saç Boyama",
+      desc: "Trend renklerle profesyonel dönüşüm.",
+    },
+    {
+      img: "/bakim.jpg",
+      title: "Saç Bakımı",
+      desc: "Yıpranmış saçlar için keratin, botoks ve nem terapileri.",
+    },
+    {
+      img: "https://images.pexels.com/photos/3735616/pexels-photo-3735616.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      title: "Cilt Bakımı",
+      desc: "Cildinize nefes aldıran tazeleyici bakım seansları.",
+    },
+  ];
+
   return (
     <div
       style={{
@@ -47,74 +70,69 @@ const Hizmetler = () => {
           marginTop: 50,
         }}
       >
-        {[
-          {
-            img: "/kesim.jpg",
-            title: "Saç Kesimi & Şekillendirme",
-            desc: "Klasikten moderne, yüz hatlarınıza uygun stil önerileri.",
-          },
-          {
-            img: "/boya.png",
-            title: "Saç Boyama",
-            desc: "Trend renklerle profesyonel dönüşüm.",
-          },
-          {
-            img: "/bakim.jpg",
-            title: "Saç Bakımı",
-            desc: "Yıpranmış saçlar için keratin, botoks ve nem terapileri.",
-          },
-          {
-            img: "https://images.pexels.com/photos/3735616/pexels-photo-3735616.jpeg?_gl=1*1f86o70*_ga*MTgwMzU3NzM3Ni4xNzYzNjYyMzI3*_ga_8JE65Q40S6*czE3NjY5MTMyNjgkbzUkZzEkdDE3NjY5MTM3MzgkajQ4JGwwJGgw",
-            title: "Cilt Bakımı",
-            desc: "Cildinize nefes aldıran tazeleyici bakım seansları.",
-          },
-        ].map((item) => (
+        {services.map((item) => (
           <div
             key={item.title}
             style={{
               backgroundColor: "white",
-              padding: "25px",
               borderRadius: "20px",
               boxShadow: "0 4px 12px rgba(0,0,0,0.08)",
               textAlign: "center",
               width: 260,
               height: 350,
+              overflow: "hidden",
               display: "flex",
               flexDirection: "column",
-              justifyContent: "space-between",
             }}
           >
+            {/* Foto */}
             <img
-              style={{
-                width: 114,
-                height: 114,
-                margin: "0 auto",
-              }}
               src={item.img}
               alt={item.title}
+              style={{
+                width: "100%",
+                height: 150,
+                objectFit: "cover",
+                display: "block",
+              }}
+              onError={(e) => {
+                e.currentTarget.src =
+                  "https://images.pexels.com/photos/3993444/pexels-photo-3993444.jpeg?auto=compress&cs=tinysrgb&w=1200";
+              }}
             />
 
             <div
               style={{
-                color: "#6F4E37",
-                fontSize: 22,
-                fontFamily: "Caveat",
-                fontWeight: "600",
-                marginTop: 10,
+                padding: "18px 18px 22px",
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "space-between",
+                flex: 1,
               }}
             >
-              {item.title}
-            </div>
+              <div
+                style={{
+                  color: "#6F4E37",
+                  fontSize: 22,
+                  fontFamily: "Caveat",
+                  fontWeight: "600",
+                  marginTop: 6,
+                }}
+              >
+                {item.title}
+              </div>
 
-            <div
-              style={{
-                color: "#6F4E37",
-                fontSize: 15,
-                fontFamily: "Anonymous Pro",
-                lineHeight: "1.5",
-              }}
-            >
-              {item.desc}
+              <div
+                style={{
+                  color: "#6F4E37",
+                  fontSize: 15,
+                  fontFamily: "Anonymous Pro",
+                  lineHeight: "1.5",
+                  marginTop: 10,
+                }}
+              >
+                {item.desc}
+              </div>
             </div>
           </div>
         ))}
