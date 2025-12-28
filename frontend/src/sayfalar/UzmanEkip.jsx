@@ -4,7 +4,7 @@ const UzmanEkip = () => {
   return (
     <div
       style={{
-        backgroundColor: "#FAF7F2",
+        backgroundColor: "#EFE7DA",
         minHeight: "100vh",
         padding: "50px 0",
       }}
@@ -53,12 +53,10 @@ const UzmanEkip = () => {
                   marginBottom: "15px",
                 }}
               />
-              <h5 style={{ color: "#6F4E37", fontWeight: "700" }}>
-                Elif Yılmaz
-              </h5>
+              <h5 style={{ color: "#6F4E37", fontWeight: "700" }}>Mert Kaya</h5>
               <span style={{ color: "#6A6A6A" }}>Saç Tasarım Uzmanı</span>
               <p style={{ marginTop: "10px", color: "#4A3B2F" }}>
-                Elif, 8 yıllık tecrübesiyle modern saç kesimlerinde
+                Mert, 8 yıllık tecrübesiyle modern saç kesimlerinde
                 uzmanlaşmıştır.
               </p>
             </div>
@@ -76,7 +74,7 @@ const UzmanEkip = () => {
               }}
             >
               <img
-                src="/team3.png"
+                src="/team2.png"
                 alt="Ayşe"
                 style={{
                   width: "140px",
@@ -110,7 +108,7 @@ const UzmanEkip = () => {
               }}
             >
               <img
-                src="/team2.png"
+                src="/team3.png"
                 alt="Mert"
                 style={{
                   width: "140px",
@@ -121,10 +119,12 @@ const UzmanEkip = () => {
                   marginBottom: "15px",
                 }}
               />
-              <h5 style={{ color: "#6F4E37", fontWeight: "700" }}>Mert Kaya</h5>
+              <h5 style={{ color: "#6F4E37", fontWeight: "700" }}>
+                Melisa Yılmaz
+              </h5>
               <span style={{ color: "#6A6A6A" }}>Renk Uzmanı</span>
               <p style={{ marginTop: "10px", color: "#4A3B2F" }}>
-                Mert, renk kombinasyonları ve balayage uygulamalarıyla fark
+                Melisa, renk kombinasyonları ve balayage uygulamalarıyla fark
                 yaratır.
               </p>
             </div>

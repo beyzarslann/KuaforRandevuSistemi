@@ -4,22 +4,19 @@ const Hizmetler = () => {
   return (
     <div
       style={{
-        backgroundColor: "#FAF7F2",
+        backgroundColor: "#EFE7DA",
         minHeight: "100vh",
-        padding: 0,
-        margin: 0,
+        padding: "50px 0",
       }}
     >
       {/* Başlık */}
       <div
         style={{
-          width: "100%",
           textAlign: "center",
           color: "#6F4E37",
-          fontSize: 36,
-          fontWeight: "700",
           marginBottom: "10px",
-          marginTop: 20,
+          fontSize: "30px",
+          fontWeight: "700",
         }}
       >
         HİZMETLERİMİZ
@@ -52,7 +49,7 @@ const Hizmetler = () => {
       >
         {[
           {
-            img: "/hairdresser.png",
+            img: "/kesim.jpg",
             title: "Saç Kesimi & Şekillendirme",
             desc: "Klasikten moderne, yüz hatlarınıza uygun stil önerileri.",
           },
@@ -62,12 +59,12 @@ const Hizmetler = () => {
             desc: "Trend renklerle profesyonel dönüşüm.",
           },
           {
-            img: "/bakim.png",
+            img: "/bakim.jpg",
             title: "Saç Bakımı",
             desc: "Yıpranmış saçlar için keratin, botoks ve nem terapileri.",
           },
           {
-            img: "/cilt.png",
+            img: "https://images.pexels.com/photos/3735616/pexels-photo-3735616.jpeg?_gl=1*1f86o70*_ga*MTgwMzU3NzM3Ni4xNzYzNjYyMzI3*_ga_8JE65Q40S6*czE3NjY5MTMyNjgkbzUkZzEkdDE3NjY5MTM3MzgkajQ4JGwwJGgw",
             title: "Cilt Bakımı",
             desc: "Cildinize nefes aldıran tazeleyici bakım seansları.",
           },
@@ -81,7 +78,7 @@ const Hizmetler = () => {
               boxShadow: "0 4px 12px rgba(0,0,0,0.08)",
               textAlign: "center",
               width: 260,
-              height: 350, // ✨ TÜM KARTLAR EŞİT YÜKSEKLİK
+              height: 350,
               display: "flex",
               flexDirection: "column",
               justifyContent: "space-between",
@@ -99,7 +96,7 @@ const Hizmetler = () => {
 
             <div
               style={{
-                color: "#6F4E37", // ✨ Daha okunabilir
+                color: "#6F4E37",
                 fontSize: 22,
                 fontFamily: "Caveat",
                 fontWeight: "600",

@@ -30,6 +30,7 @@ const MusteriEkle = () => {
                 <input
                   type="text"
                   placeholder="Adınızı giriniz "
+                  autoComplete="off"
                   name="adGir"
                   value={musteri_ad}
                   className="form-control"
@@ -41,6 +42,7 @@ const MusteriEkle = () => {
                 <input
                   type="text"
                   placeholder="Soyadınızı giriniz "
+                  autoComplete="off"
                   name="soyadGir"
                   value={musteri_soyad}
                   className="form-control"
