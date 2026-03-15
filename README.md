@@ -20,4 +20,4 @@ Bu sistem; müşterilerin kuaför randevusu almasını, kuaförlerin ise randevu
 - **React** 
 - **Tailwind Css**
 
-
+<img width="1898" height="906" alt="Image" src="https://github.com/user-attachments/assets/a7234aa3-277e-4814-80f6-6381037c8d20" />
