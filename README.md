@@ -8,8 +8,8 @@ Bu sistem; müşterilerin kuaför randevusu almasını, kuaförlerin ise randevu
 
 ## Özellikler
 
-- 📅 Randevu oluşturma ve yönetme
-- 💼 Kuaför paneli (randevu takibi)
+- Randevu oluşturma ve yönetme
+- Kuaför paneli (randevu takibi)
 
 ## Kullanılan Teknolojiler
 
